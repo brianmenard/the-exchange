@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Workspace</title>
+    <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="main.css" rel="stylesheet">
+    <script src="javascripts/fade_in.js"></script>
+    <script src="javascripts/link_action.js"></script>
+    <script src="javascripts/nav_change.js"></script>
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+<body>
+  
+  <div class='container-fluid'>
+    <!-- NAV BAR -->
+     <div class='row nav' id='nav'>
+       Home  Products  Services  Locations
+     </div>   
+  
+    <!-- END NAV BAR -->
+
+  
+<!-- MAIN HEADER -->
+<div class='row'>
+    <div class='header_photo_container'>
+        <img class="img-responsive" src="images/header_photo.jpg" alt="Header photo" />
+    </div>
+    <div class='logo_container'>
+        <img src="images/the_exchange_logo_white.png" alt="The exchange logo white" />
+    </div>
+    <h1 class='tagline'>A <span class='red_text'>great deal</span> of entertainment</h1>
+    <div class='col-xs-12 main_header'>
+        
+    </div>
+</div>
+<!-- ANCHOR POINT FOR NAV BAR COLOR CHANGE JS -->
+<a id='nav_change'></a>
+<!-- END MAIN HEADER -->
+
+<!-- PRODUCTS SECTION -->
+<div class='row'>
+    <div class='col-md-3 section'>
+        <div class='product_container hideme'>
+            <div class='product_body_container'>
+                <i class="material-icons product_icon">gamepad</i>
+                <h1>Games</h1>
+                <p>
+                    We offer a wide variety of games, classic and modern. 
+                    We also sell consoles and console bundles. So wheter your looking to 
+                    pick up something new or rehadh an old favorite, odds are we have it!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class='col-md-3 section'>
+        <div class='product_container hideme'>
+            <div class='product_body_container'>
+                <i class="material-icons product_icon">movie_creation</i>
+                <h1>Movies</h1>
+                <p>
+                    We have a massive selction of both DVD and Blue Ray movies,
+                    and even some VHS tapes!  Our selection spans all genres, giving you
+                    a huge number of movies to choose from.  Our selection is 
+                    organized alphabetically and by genre, so it's always easy to find 
+                    what you're looking for.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class='col-md-3 section'>
+        <div class='product_container hideme'>
+            <div class='product_body_container'>
+                <i class="material-icons product_icon">speaker</i>
+                <h1>Music</h1>
+                <p>
+                    We boast a great collection of music ranging from pop ro classic
+                    rock to smooth jazz.  Come browse our collection of records, cassettes, CD's,
+                    and music equipment such as instuments and iPods.  Having trouble deciding on an album?
+                    Our staff is happy to give their personal recommendations for new artists and albums.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class='col-md-3 section'>
+        <div class='product_container hideme'>
+            <div class='product_body_container'>
+                <i class="material-icons product_icon">toys</i>
+                <h1>...and more!</h1>
+                <p>
+                    We also have a great selection of collectibles and miscellaneous 
+                    loot, such as action figures, comic books, classic toys, t-shirts, and more.
+                    Each store has a different selection based on what has been traded in, 
+                    be sure to check out each location!
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END PRODUCTS SECTION -->
+
+<!-- PHOTO SECTION -->
+
+<div class='row'>
+    <div class='col-xs-4 photo_container'>
+        <img class="img-responsive hideme" src="images/action_figure.jpg" alt="Action figure" />
+    </div>
+    <div class='col-xs-4 photo_container'>
+        <img class="img-responsive hideme" src="images/pokemon.jpg" alt="Pokemon" />
+    </div>
+    <div class='col-xs-4 photo_container'>
+        <img class="img-responsive hideme" src="images/misfits.jpg" alt="Misfits" />
+    </div>
+</div>
+
+<div class='row'>
+    <div class='col-xs-4 photo_container'>
+        <img class="img-responsive hideme" src="images/sonic.jpg" alt="Sonic" />
+    </div>
+    <div class='col-xs-4 photo_container'>
+        <img class="img-responsive hideme" src="images/record.JPG" alt="Record" />
+    </div>
+    <div class='col-xs-4 photo_container'>
+        <img class="img-responsive hideme" src="images/thor.jpg" alt="Thor" />
+    </div>
+</div>
+
+<!-- END PHOTO SECTION -->
+
+<!-- SERVICES SECTION -->
+
+<div class='row services_row'>
+    <div class='col-xs-4 section'>
+        <div class='service_container hideme'>
+            <div class='service_body_container'>
+                <h1 class='service_header'>Buy</h1>
+                <i class="material-icons service_icon">shopping_cart</i>
+                <p>
+                    We have a huge selection of movies, music, games, and more.  Each store
+                    has it's own stock based on tade-ins and sales, so just ask an associate
+                    if you can't find what you're looking for and they can search other locations for you.
+                    We prefer cash but accept credit, debit, and ApplePay.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class='col-xs-4 section'>
+        <div class='service_container hideme'>
+            <div class='service_body_container'>
+                <h1 class='service_header'>Sell</h1>
+                <i class="material-icons service_icon">attach_money</i>
+                <p>
+                    Need to clear out some space in your attic?  Come sell your unwanted but
+                    good condition toys and games to us!  Not sure if we'll want it?  Bring it anwyays!
+                    We strive to build out stock with items that are hard to find elsewhere, so no item is to weird.
+                    That Alf collectors mug?  Bring it in!  We offer competative pricing, and a bonus if you
+                    accept payment in store credit - a win-win!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class='col-xs-4 section'>
+        <div class='service_container hideme'>
+            <div class='service_body_container'>
+                <h1 class='service_header'>Trade</h1>
+                <i class="material-icons service_icon">cached</i>
+                <p>
+                    Strapped for cash but really craving some good old Game Boy Color nostalgia?
+                    Bring in some items for trade and we're happy to work out a deal, no pressure and no haggling.
+                    Every person that comes in to The Exchange is a friend, and that's how we'll treat you.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END SERVICES SECTION -->
+
+<!-- LOCATIONS SECTION -->
+
+<div class='row pad_top'>
+    <h1 class='location_header'>Our Locations</h1>
+    <h1 class='state_name'>Illinois</h1>
+    <div class='col-xs-2'>
+        <div class='location_container'>
+            <h3>
+                Belmont
+            </h3>
+            <p>935 W Belmont Ave</p>
+            <p>Chicago, IL</p>
+            <p>773-883-8908</p>
+        </div>
+    </div>
+    <div class='col-xs-2'>
+        <div class='location_container'>
+            <h3>
+                Milwaukee Ave
+            </h3>
+            <p>1524 N Milwaukee Ave</p>
+            <p>Chicago, Il</p>
+            <p>773-252-9570</p>
+        </div>
+    </div>
+
+</div>
+
+<div class='row pad_bottom'>
+    <h1 class='state_name'>Ohio</h1>
+    <div class='col-xs-2'>
+        <div class='location_container'>
+            <h3>
+                Alliance
+            </h3>
+            <p>2448 W State St</p>
+            <p>Alliance, OH</p>
+            <p>330-596-1028</p>
+        </div>
+    </div>
+    <div class='col-xs-2'>
+        <div class='location_container'>
+            <h3>
+                Boardman
+            </h3>
+            <p>339 Boardmand-Canfield Rd</p>
+            <p>Boardman, OH</p>
+            <p>234-254-4151</p>
+        </div>
+    </div>
+    <div class='col-xs-2'>
+        <div class='location_container'>
+            <h3>
+                Canton
+            </h3>
+            <p>4464 Belden Village</p>
+            <p>Canton, OH</p>
+            <p>330-491-1370</p>
+        </div>
+    </div>
+    <div class='col-xs-2'>
+        <div class='location_container'>
+            <h3>
+                Canton
+            </h3>
+            <p>3225 Cleveland Ave</p>
+            <p>Canton, OH</p>
+            <p>330-492-4805</p>
+        </div>
+    </div>
+</div>
+
+<!-- END LOCATIONS SECTION -->
+
+  <!-- FOOTER -->
+  <div class='row'>
+    <div class='col-md-4'>
+      
+    </div>
+    <div class='col-md-4'>
+      
+    </div>
+    <div class='col-md-4'>
+      
+    </div>
+  </div>
+
+  <div class='row footer'>
+      <div class='col-xs-12'>
+        <span class='grey'>© 2016 Brian Menard. All rights reserved. Built with <span class='heart'>&hearts;</span>  by Brian Menard</span>
+      </div>
+  </div>
+</div>
+
+<!-- END FOOTER -->
+</body>
+</html>

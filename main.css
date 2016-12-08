@@ -1,0 +1,244 @@
+/** COLORS
+
+bright red: #FF4E50
+darker red: #b00002
+tan: #F0F2EB
+
+
+**/
+
+/** OVERRIDES **/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F0F2EB;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1.service_header{
+    font-size:3em;
+}
+
+h1.location_header{
+    font-size: 3em;
+    color:black;
+    margin-left: 65px;
+}
+
+h1.state_name{
+    color:black;
+    margin-left: 65px;
+}
+
+/** FOR JQUERY SCRIPTS **/
+
+.hideme
+{
+    opacity:0;
+}
+
+/**  DIV STYLING **/
+
+.nav{
+    height: 50px;
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+    text-align: right;
+    padding: 25px; padding-right: 50px;
+    color: white;
+    transition: background 0.3s ease-in-out ;
+}
+
+.main_header{
+    margin: 0px;
+    padding-right: 0px;
+    padding-left: 50px;
+}
+
+.logo_container{
+    position: absolute;
+    top:75px; left:425px;
+}
+
+.location_container{
+    margin-left: 50px;
+}
+
+.section{
+    height: 75vh;
+}
+
+.product_container{
+    background-color: #FF4E50;
+    height:60vh;
+    /** center div **/
+    margin-top: auto; margin-bottom: auto;
+    margin-left: 15px; margin-right: 15px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.product_body_container{
+    color: white;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px
+}
+
+.services_row{
+    background-color: #FF4E50;
+}
+
+.service_container{
+    height:400px;
+    /** center div **/
+    margin-top: auto; margin-bottom: auto;
+    margin-left: 15px; margin-right: 15px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.service_body_container{
+    color: white;
+    margin-left:50px;
+}
+
+.photo_container{
+    margin:0px;
+    padding:0px;
+    /** position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    **/
+}
+
+.footer{
+    padding: 10px;
+    background-color: #b00002;
+    color: white;
+}
+
+.pad_bottom{
+    padding-bottom: 100px;
+}
+
+.pad_top{
+    padding-top: 100px;
+}
+
+.margin_top{
+    margin-top: 100px;
+}
+
+/** END DIV STYLING **/
+
+.center{
+    text-align: center;
+}
+
+.red_text{
+    color: #FF4E50;
+}
+
+.material-icons.product_icon{
+    font-size: 75px;
+}
+
+.material-icons.service_icon{
+    font-size: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.nav_link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-left: 25px;
+    text-decoration: none;
+    color:black;
+}
+
+.nav_link:hover{
+    text-decoration: none;
+    color:red;
+    cursor: pointer;
+}
+
+.tagline{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    color: white;
+    position: absolute;
+    top:500px;
+    left:200px;
+}
+
+.headphones{
+    z-index: 5;
+    height: 600px;
+    position: absolute;
+    top: 200px;
+    left:800px;
+}
+
+.camera{
+    z-index: 5;
+    width: 350px;
+    position: absolute;
+    top: 65vh;
+    left:50vw;
+    -ms-transform: rotate(-60deg); /* IE 9 */
+    -webkit-transform: rotate(-60deg); /* Chrome, Safari, Opera */
+    transform: rotate(-60deg);
+}
+
+.ipad{
+    z-index: 5;
+    height: 700px;
+    position: absolute;
+    top: 0vh;
+    left:50vw;
+    -ms-transform: rotate(60deg); /* IE 9 */
+    -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+    transform: rotate(60deg);
+}
+
+
+/** FOR TESTING **/
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color:yellow;
+}
+
+.red{
+    background-color: red;
+}
+
+.red_border{
+    border: thin solid red;
+}
+
+/**
+
+*{
+    border:thin solid red;
+}
+
+**/
+
+/** END TESTING **/
